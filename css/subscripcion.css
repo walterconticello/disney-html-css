@@ -1,0 +1,168 @@
+@import url('https://fonts.googleapis.com/css2?family=Sen:wght@700&display=swap');
+
+.body {
+  font-family: 'Sen', sans-serif;
+}
+
+.formularioDisney {
+  background-color: #1c1c2c;
+}
+
+.tituloForm {
+  font-family: 'Sen', sans-serif;
+}
+
+.politicaPriv {
+  background-color: #474952;
+  border-radius: 3px;
+}
+
+.Logo{
+  width: 100px;
+  height: 50px;
+  margin: auto;
+}
+
+.navbar {
+  background-color: #1A1D29;
+  border-bottom: .2px solid #F1F1F1 !important;
+
+}
+
+.textoGris {
+  color: #c5c5c7;
+}
+
+.pack-container {
+  position: relative;
+  display: flex;
+  max-width: 250px;
+  flex-direction: column;
+  border-radius: 12px;
+  background-color:  #33333c ;
+  border: 1px solid #fff;
+  padding: 1rem;
+  color: #fff;
+  box-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1);
+}
+
+.header {
+  position: relative;
+  margin: 0;
+  margin-bottom: 2rem;
+  overflow: hidden;
+  border-radius: 0;
+  border-bottom: 1px solid #fff;
+  background: transparent;
+  padding-bottom: 1rem;
+  text-align: center;
+}
+
+.titleCards {
+  display: block;
+  font-family: 'Sen', sans-serif;
+  font-size: 30px;
+  line-height: 1.25rem;
+  text-transform: uppercase;
+  color: #fff
+}
+
+.price-container {
+  margin-top: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 4px;
+  font-family: 'Sen', sans-serif;
+  font-size: 30px;
+  line-height: 1;
+}
+
+.list p {
+  display: block;
+  font-family: 'Sen', sans-serif;
+}
+
+.button-container {
+  margin-top: 20px;
+  padding: 0;
+}
+
+a.nav-link.active.rounded-pill{
+  background-color:   #344c67  ;
+}
+
+.button-container button {
+  font-family: 'Sen', sans-serif;
+  display: block;
+  width: 100%;
+  background-color: #0474d3;
+  padding: 10px 20px;
+  text-transform: uppercase;
+  color: white;
+  outline: 0;
+  border: 0;
+  border-radius: 10px;
+}
+input#defaultCheck1.form-check-input{
+  background-color:    #9b9c9c  ;
+}
+/* css de la seccion de formulacio de suscripcion */
+input,
+textarea,
+button {
+  padding: 8px 15px;
+  border-radius: 5px !important;
+  margin: 5px 0px;
+  box-sizing: border-box;
+  border: 1px solid #ccc;
+  font-size: 18px !important;
+  font-weight: 300
+}
+
+input:focus,
+textarea:focus {
+  -moz-box-shadow: none !important;
+  -webkit-box-shadow: none !important;
+  box-shadow: none !important;
+  border: 1px solid #00BCD4;
+  outline-width: 0;
+  font-weight: 400
+} 
+
+@media screen and (min-width: 768px) {
+  #p5 {
+    padding: 3rem;
+  }
+}
+
+.planes{
+  display: flex;
+  justify-content: center;
+}
+
+input{
+  background-color: #31343f !important;
+}
+
+input{
+  color: white !important;
+}
+
+::placeholder {
+  color: white !important;
+}
+
+label{
+  color: white;
+}
+
+.row{
+  margin-right: 0;
+  margin-left: 0;
+}
+
+a{
+  color: white;
+  text-decoration: none;
+}

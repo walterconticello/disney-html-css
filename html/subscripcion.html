@@ -1,0 +1,333 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+        <link rel="icon" type="image/png" sizes="32x32" href="../img/logo/favicon.png">
+    <link rel="stylesheet" href="../css/footer.css">
+    <link rel="stylesheet" href="../css/subscripcion.css">
+    <title>Suscripcion</title>
+</head>
+
+<body class="formularioDisney">
+        <!-- Inicio de Navbar -->
+        <nav class="navbar">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="../index.html">
+                    <img src="../img/logo/logo1.png" alt="Logo de Disney +" class="Logo">
+                </a>
+            </div>
+        </nav>
+        <!-- Fin de Navbar -->
+
+        <!-- titulo formulario de suscripcion -->
+        <section class="text-light mt-4">
+            <h2 class="text-light tituloForm fs-1 text-center">Suscribite</h2>
+            <p class="text-light text-center">Crea tu cuenta de Disney+ para ver tus series y películas favoritas</p>
+        </section>
+        <!-- Fin titulo formulario de suscripcion  -->
+        <!-- Inicio formulario de suscripcion -->
+        <section>
+            <div class="container-fluid px-1 py-3">
+                <div class="row d-flex justify-content-center">
+                    <div class="col-xl-7 col-lg-8 col-md-9 col-11 text-center">
+                        <form class="form-card">
+                            <div class="row justify-content-between text-left">
+                                <div class="form-group col-sm-6 flex-column d-flex"> <label
+                                        class="form-control-label px-3">Nombre</label>
+                                    <input type="text" id="fname" name="fname" placeholder="Ingresa tu nombre completo">
+                                </div>
+                                <div class="form-group col-sm-6 flex-column d-flex"> <label
+                                        class="form-control-label px-3">Apellido</label>
+                                    <input type="text" id="lname" name="lname" placeholder="Ingresa tu apellido">
+                                </div>
+                            </div>
+                            <div class="row justify-content-between text-left">
+                                <div class="form-group col-sm-6 flex-column d-flex"> <label
+                                        class="form-control-label px-3">E-Mail</label> <input type="text" id="email"
+                                        name="email" placeholder="Ingresa tu E-Mail"> </div>
+                                <div class="form-group col-sm-6 flex-column d-flex"> <label
+                                        class="form-control-label px-3">Número de Telefono</label>
+                                    <input type="text" id="mob" name="mob" placeholder="Ingresa tu número">
+                                </div>
+                            </div>
+                            <!-- aqui va la contraseña -->
+                            <div class="row justify-content-between text-left">
+                                <div class="form-group col-sm-6 flex-column d-flex"> <label
+                                        class="form-control-label px-3">Contraseña</label> <input type="text" id="email"
+                                        name="email" placeholder="8 caracteres mínimo"> </div>
+                                <div class="form-group col-sm-6 flex-column d-flex"> <label
+                                        class="form-control-label px-3">Repetir contraseña</label>
+                                    <input type="text" id="mob" name="mob" placeholder="8 caracteres mínimo">
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>        
+            </div>   
+        </section>
+        <!-- fin formulario de suscripcion -->
+        <!-- aqui inicia el codigo de tarjetas -->
+        <section class="container py-2">
+            <section class="row">
+                <div class="col-lg-7 mx-auto">
+                    <div class="rounded-lg shadow-sm" id="p5">
+                        <ul class="nav  nav-pills rounded-pill nav-fill mb-3">
+                            <li class="nav-item">
+                                <a href="#nav-tab-card" class="nav-link active rounded-pill">
+                                    <i class="fa fa-credit-card"></i>
+                                    Tarjeta de Credito
+                                </a>
+                            </li>
+                            <!-- agregar link de error 404 al href -->
+                            <li class="nav-item">
+                                <a href="#nav-tab-paypal" class="nav-link rounded-pill">
+                                    <i class="fa fa-paypal"></i>
+                                    Paypal
+                                </a>
+                            </li>
+                            <!-- agregar link de error 404 al href -->
+                            <li class="nav-item">
+                                <a href="#nav-tab-bank" class="nav-link rounded-pill">
+                                    <i class="fa fa-university"></i>
+                                    Mercado Pago
+                                </a>
+                            </li>
+                        </ul>
+                        <div class="tab-content">
+                            <div id="nav-tab-card" class="tab-pane fade show active">
+                                <form role="form">
+                                    <div class="form-group">
+                                        <label for="username">Nombre (En la tarjeta)</label>
+                                        <input type="text" name="username" placeholder="Nombre" required
+                                            class="form-control">
+                                    </div>
+                                    <div class="form-group">
+                                        <label for="cardNumber">Numero de tarjeta</label>
+                                        <div class="input-group">
+                                            <input type="text" name="cardNumber" placeholder="Tu numero de tarjeta"
+                                                class="form-control" required>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-sm-8">
+                                            <div class="form-group">
+                                                <label><span class="hidden-xs">Fecha de vencimiento</span></label>
+                                                <div class="input-group">
+                                                    <input type="number" placeholder="MM" class="form-control" required>
+                                                    <input type="number" placeholder="YY" class="form-control" required>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-sm-4">
+                                            <div class="form-group mb-4">
+                                                <label>CVV
+                                                    <i class="fa fa-question-circle"></i>
+                                                </label>
+                                                <input type="text" required class="form-control">
+                                            </div>
+                                        </div>
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </section>    
+        <section>
+            <!-- fin seccion  tarjetas de credito -->
+            <!-- seccion planes -->
+            <section class="d-flex justify-content-center" id="p3">
+                <div class="row">
+                    <!-- primera card -->
+                    <div class="planes col-sm-4 mb-3 mb-sm-0">
+                        <div class="pack-container h-100">
+                            <div class="header">
+                                <div class="price-container">
+                                    <h1 class="titleCards">Basic</h1>
+                                </div>
+                            </div>
+                            <div>
+                                <ul class="lists">
+                                    <li class="list">
+                                        <p>
+                                            Estrenos de Disney, Pixar, Marvel, Star Wars y National Geographic
+                                        </p>
+                                    </li>
+                                    <li class="list">
+
+                                        <p>
+                                            Control parental y perfiles personalizados hasta 2
+                                        </p>
+                                    </li>
+                                    <li class="list">
+
+                                        <p>
+                                            Descargas sin conexion
+                                        </p>
+                                    </li>
+
+                                </ul>
+                                <div class="price-container">
+                                    <span>$</span>599
+                                    <span>/Mes</span>
+                                </div>
+                            </div>
+                            <div class="form-check">
+                                <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+                              </div>
+                        </div>
+                    </div>
+                    <!-- termina primera card -->
+                    <!-- Segunda card -->
+                    <div class="planes col-sm-4 mb-3 mb-sm-0">
+                        <div class="pack-container">
+                            <div class="header">
+                                <div class="price-container">
+                                    <h1 class="titleCards">Premium</h1>
+                                </div>
+                            </div>
+                            <div>
+                                <ul class="lists">
+                                    <li class="list">
+                                        <p>
+                                            Estrenos de Disney, Pixar, Marvel, Star Wars, National Geographic y ESPN
+                                        </p>
+                                    </li>
+                                    <li class="list">
+
+                                        <p>
+                                            Control parental perfiles personalizados hasta 3
+                                        </p>
+                                    </li>
+                                    <li class="list">
+
+                                        <p>
+                                            Descargas sin conexion
+                                        </p>
+                                    </li>
+
+                                </ul>
+                                <div class="price-container">
+                                    <span>$</span>799
+                                    <span>/Mes</span>
+                                </div>
+                            </div>
+                            <div class="form-check">
+                                <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+                              </div>
+                        </div>
+                    </div>
+                    <!-- termina segunda card -->
+                    <!-- Tercera card -->
+                    <div class="planes col-sm-4 mb-3 mb-sm-0">
+                        <div class="pack-container">
+                            <div class="header">
+                                <div class="price-container">
+                                    <h1 class="titleCards">Family</h1>
+                                </div>
+                            </div>
+                            <div>
+                                <ul class="lists">
+                                    <li class="list">
+                                        <p>
+                                            Estrenos de Disney, Pixar, Marvel, Star Wars, National Geographic Y ESPN
+                                        </p>
+                                    </li>
+                                    <li class="list">
+
+                                        <p>
+                                            Control parental y perfiles personalizados hasta 5
+                                        </p>
+                                    </li>
+                                    <li class="list">
+
+                                        <p>
+                                            Descargas sin conexion
+                                        </p>
+                                    </li>
+
+                                </ul>
+                                <div class="price-container">
+                                    <span>$</span>999
+                                    <span>/Mes</span>
+                                </div>
+                            </div>
+                            <div class="form-check">
+                                <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+                              </div>
+                        </div>
+                    </div>
+                    <!-- termina tercera card -->
+                </div>
+                <!-- termina planes-->
+            </section>
+            <section class="d-flex flex-column align-items-center politicaPriv mt-3">
+                <p class="m-2 textoGris">Disney usará tus datos para personalizar y mejorar tu experiencia en
+                    Disney+ para enviarte
+                    información
+                    sobre Disney+. Puedes cambiar tus preferencias de comunicación en cualquier momento. Podemos
+                    usar tus
+                    datos tal como se escribe nuetra Politica de Privacidad, que incluye compartilos con la Familia
+                    de
+                    Compañias de Walt Disney. Al hacer clic en Continuar, reconoces que has leído nuestra Politica
+                    de
+                    Privacidad.</p>
+                <button type="submit" class="btn btn-primary m-2 w-50"><a href="../html/error404.html">Suscribirse</a></button>
+            </section>
+        </section>
+
+    </main>
+        <!-- Inicio de Footer -->
+        <div class="container-fluid footer mt-4">
+            <div class="logo">
+                <a href="../index.html">
+                    <img src="../img/logo/logo1.png" class="img-fluid mx-auto d-block" width="100px" alt="Logo de Disney +">
+                </a>
+            </div>
+            <div class="footer2 row p-4 rowfooter">
+                <div class="col-xs-1 col-lg-3 col-md-2 text-center">
+                    <div class="mb-2">
+                        <a class=" text-decoration-none text-secondary" href="../html/contacto.html">Política de privacidad</a>
+                    </div>
+                    <div class="mb-2">
+                        <a class=" text-decoration-none text-secondary" href="../html/subscripcion.html">Acuerdo de suscripción</a>
+                    </div>
+                    <div class="mb-2">
+                        <a class=" text-decoration-none text-secondary" href="../html/contacto.html">Ayuda</a>
+                    </div>
+                </div>
+                <div class="col-xs-1 col-lg-3 col-md-2 text-center">
+                    <div class="mb-2">
+                        <a class=" text-decoration-none text-secondary" href="../html/contacto.html">Dispositivos compatibles</a>
+                    </div>
+                    <div class="mb-2">
+                        <a class=" text-decoration-none text-secondary" href="../html/acercadenosotros.html">Acerca de Nosotros</a>
+                    </div>
+                    <div class="mb-2">
+                        <a class=" text-decoration-none text-secondary" href="../html/contacto.html">Publicidad personalizada</a>
+                    </div>
+                </div>
+            </div>
+            <div class="fin">
+                <p class="text-secondary mb-12 text-center">
+                    Disney+ es un servicio por suscripción de pago, su contenido
+                    está sujeto a disponibilidad. El servicio Disney+ es comercializado por The Walt Disney Company
+                    (Argentina) S.A., Tucumán 1, Piso 4º (C1049AAA) Ciudad Autónoma de Buenos Aires, Argentina y número de
+                    CUIT 30-63984459-1.
+                </p>
+                <p class="text-secondary mb-12 text-center mb-0">
+                    © Disney. Todos los derechos reservados.
+                </p>
+            </div>
+        </div>
+        </div>
+        <!-- Fin de Footer -->
+</body>
+</html>

@@ -1,0 +1,428 @@
+* {
+    outline: none;
+}
+
+li {
+    list-style: none;
+}
+
+
+.navbardisney {
+    margin: 0px;
+    width: 100%;
+    height: 75px;
+    background-color: #0e0b14;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    font-size: 15px;
+    position: fixed;
+    font-family: 'Sen', sans-serif;
+    z-index: 3;
+    font-weight: 700;
+}
+
+
+
+@media (max-width: 1120px) {
+    .navbardisney {
+        font-size: small;
+    }
+}
+
+@media (max-width: 1050px) {
+    .navbardisney {
+        font-size: smaller;
+
+    }
+}
+
+
+@media (max-width: 980px) {
+    .navbardisney {
+        font-size: x-small;
+    }
+}
+
+@media (max-width: 900px) {
+    .navbardisney {
+        font-size: xx-small;
+
+    }
+}
+
+@media (max-width:830px) {
+    .navbardisney {
+        font-size: 0px;
+    }
+}
+
+@media (max-width:550px) {
+    .navbardisney li {
+        padding: 3px;
+        margin: 3px;
+    }
+}
+
+
+
+.navbardisney a {
+    text-decoration: none;
+    color: #f9f9f9;
+}
+
+.logodisneyletras {
+    padding: 23px;
+    text-decoration: none;
+    position: relative;
+}
+
+.logodisney {
+    background-image: url("https://www.pikpng.com/pngl/b/482-4820066_disney-plus-logo-png-clipart.png");
+    width: 82px;
+    height: 42px;
+    background-repeat: no-repeat;
+    background-size: 82px 42px;
+    background-position-x: left;
+    padding-right: 110px;
+    padding-bottom: 2px;
+}
+
+@media (max-width:830px) {
+    .logodisney {
+        width: 52px;
+        height: 32px;
+        background-size: 52px 32px;
+        padding-right: 0px;
+    }
+}
+
+
+.logodisneyletras i {
+    font-size: 12px;
+    margin-right: 10px;
+}
+
+.logodisneyletras a {
+    padding-bottom: 5px;
+}
+
+
+.letrasnavbar::after {
+    content: '';
+    position: absolute;
+    width: 0%;
+    height: 2.5px;
+    background-color: #f9f9f9;
+    bottom: 18px;
+    left: 49px;
+    border-radius: 3px;
+
+}
+
+.letrasnavbar:hover::after {
+    width: 44%;
+    transition-duration: 250ms;
+    transition-property: all;
+    transition-timing-function: ease;
+
+}
+
+.letrasnavbar1::after {
+    content: '';
+    position: absolute;
+    width: 0%;
+    height: 2.5px;
+    background-color: #f9f9f9;
+    bottom: 18px;
+    left: 48px;
+    border-radius: 3px;
+}
+
+.letrasnavbar1:hover::after {
+    width: 55%;
+    transition-duration: 250ms;
+    transition-property: all;
+    transition-timing-function: ease;
+}
+
+@media (max-width:830px) {
+    .letrasnavbar:hover::after {
+        width: 0%;
+    }
+}
+
+@media (max-width:830px) {
+    .letrasnavbar1:hover::after {
+        width: 0%;
+    }
+}
+
+
+.micuentanavbar h4 {
+    font-size: 14px;
+    color: #f9f9f9;
+    padding: 10px;
+    font-weight: 700;
+
+}
+
+.micuentanavbar {
+    font-size: small;
+    position: absolute;
+    right: 35px;
+    top: 18px;
+    cursor: pointer;
+    z-index: 4;
+
+}
+
+.micuentanavbar i {
+    margin-right: 10px;
+    color: #f9f9f9;
+    font-size: small;
+
+}
+
+.micuentanavbar ul {
+    position: absolute;
+    overflow: hidden;
+    max-height: 0px;
+    width: 180px;
+    transition: all 250ms;
+    padding-left: 10px;
+    left: -23px;
+    top: 40px;
+}
+
+.micuentanavbar:hover ul {
+    width: 180px;
+    max-height: 200px;
+    background-color: #0e0b14;
+}
+
+.micuentanavbar ul li {
+    padding: 15px 5px;
+    font-size: 14px;
+    margin: 10px 10px 10px 20px;
+}
+
+
+
+.micuentanavbar ul li::after {
+    content: '';
+    position: absolute;
+    width: 0%;
+    height: 2.5px;
+    background-color: #f9f9f9;
+    left: 37px;
+    border-radius: 3px;
+    margin-top: 25px;
+}
+
+.micuentanavbar ul li:hover::after {
+    width: 58%;
+    transition-duration: 250ms;
+    transition-property: all;
+    transition-timing-function: ease;
+}
+
+@media (max-width: 1120px) {
+    .micuentanavbar h4 {
+        font-size: smaller;
+    }
+}
+
+@media (max-width: 1120px) {
+    .micuentanavbar ul li {
+        font-size: smaller;
+    }
+}
+
+@media (max-width: 980px) {
+    .micuentanavbar h4 {
+        font-size: x-small;
+    }
+}
+
+@media (max-width: 980px) {
+    .micuentanavbar ul li {
+        font-size: xx-small;
+    }
+}
+
+@media (max-width: 940px) {
+    .micuentanavbar h4 {
+        font-size: 0px;
+    }
+}
+
+@media (max-width: 840px) {
+    .micuentanavbar ul {
+        left: -50px;
+    }
+}
+
+@media (max-width: 840px) {
+    .micuentanavbar ul li:hover::after {
+        width: 40%;
+        margin-top: 17px;
+    }
+}
+
+@media (max-width: 840px) {
+    .micuentanavbar ul li::after {
+        width: 0%;
+        margin-top: 17px;
+    }
+}
+
+
+@media (max-width: 550px) {
+    .logodisney {
+        margin: 0px;
+        padding: 0px;
+        position: relative;
+        left: 0px;
+    }
+}
+
+@media (max-width: 300px) {
+    .navbardisney {
+        margin: 0px;
+        padding: 0px;
+        left: 0px;
+    }
+}
+
+@media (max-width: 300px) {
+    .micuentanavbar h4 {
+        position: absolute;
+        right: -46px;
+        top: 2px;
+    }
+}
+
+@media (max-width: 300px) {
+    .micuentanavbar ul {
+        left: -100px;
+    }
+}
+
+
+
+button {
+    color: #f9f9f9;
+    background-color: #0e0b14;
+    border: none;
+    font-weight: 700;
+}
+
+.inputnavbar {
+    position: absolute;
+    top: 73px;
+    left: 1px;
+    opacity: 0;
+    transition: all 150ms;
+}
+
+.inputnavbar1 {
+    width: 250px;
+    height: 34px;
+    padding: 7px;
+    padding-right: 30px;
+    color: grey;
+    border: 1px solid #6b6b6b;
+    border-top: 0px;
+    background-color: rgb(19, 19, 19);
+    border-radius: 0px 0 6px 6px;
+    cursor: text;
+}
+
+.submitnavbar {
+    position: absolute;
+    color: grey;
+    top: 3px;
+    right: -5px;
+    cursor: pointer;
+    background-color: inherit;
+}
+
+button:focus-within+.inputnavbar,
+.inputnavbar:focus-within {
+    opacity: 1;
+    cursor: text;
+    outline: none;
+}
+
+#logodisneyletras {
+    padding: 23px;
+    text-decoration: none;
+    position: relative;
+}
+
+.inputnavbar1:hover {
+    text-decoration: none;
+    outline: none;
+}
+
+
+@media(max-width: 550px) {
+    .logodisneyletras {
+        padding: 0px;
+        margin: 0px;
+    }
+}
+
+
+@media (max-width: 1120px) {
+    .inputnavbar {
+        top: 68px;
+        font-size: small;
+    }
+}
+
+
+@media(max-width: 500px) {
+    .inputnavbar {
+        top: 67px;
+        left: 0px;
+    }
+}
+
+@media(max-width: 550px) {
+    .inputnavbar {
+        top: 44px;
+        left: -20px;
+        font-size: 10px;
+    }
+}
+
+@media(max-width: 550px) {
+    .submitnavbar {
+        top: 10px;
+        font-size: 10px;
+    }
+}
+
+@media(max-width: 360px) {
+    .inputnavbar {
+        top: 44px;
+        left: -60px;
+    }
+}
+
+
+@media(max-width: 360px) {
+    .inputnavbar1 {
+        width: 190px;
+        height: 30px;
+    }
+}
+
+@media(max-width: 370px) {
+    .submitnavbar {
+        top: 8px;
+        font-size: 10px;
+    }
+}

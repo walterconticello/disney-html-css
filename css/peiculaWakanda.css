@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Sen:wght@400;700;800&display=swap');
+
+body {
+    background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0) 0%, #161824 50%), url("https://prod-ripcut-delivery.disney-plus.net/v1/variant/disney/1BDE1501CF1F07947DDCA3A92C2A67C24BEE20754EDB17C3671075DA978AFE7E/scale?width=1440&aspectRatio=1.78&format=jpeg");
+    font-family: 'Sen', sans-serif;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.nav-link {
+    color: white;
+}
+
+.nav-link:hover {
+    color: white;
+    font-weight: 700;
+}
+
+.nav-link.active {
+    color: white;
+    font-weight: 700;
+}
+
+.tarjeta-episodios {
+    color: white;
+    background: transparent;
+    box-shadow: none;
+    border: none;
+}
+
+.titulo-tarjetas {
+    font-weight: 700;
+}
+
+.contenido-tarjetas {
+    font-size: 14px;
+}
+
+.info-disney {
+    color: white;
+    background: transparent;
+    box-shadow: none;
+}
+
+.info-disney .titulo-serie {
+    font-weight: 700;
+}
+
+
+@media only screen and (max-width: 767px) {
+    body {
+        background-color: #161824;
+        background-image: url("https://prod-ripcut-delivery.disney-plus.net/v1/variant/disney/1BDE1501CF1F07947DDCA3A92C2A67C24BEE20754EDB17C3671075DA978AFE7E/scale?width=1440&aspectRatio=1.78&format=jpeg");
+        background-size: contain;
+        background-position: center 8vh;
+        background-repeat: no-repeat;
+    }
+
+    .logo-serie {
+        margin-top: 4vh;
+    }
+}

@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Sen:wght@400;700;800&display=swap');
+
+body {
+    font-family: 'Sen', sans-serif;
+    background: black;
+    min-height: 100vh;
+    margin: 0;
+    padding: 0;
+}
+
+.video-container {
+    position: relative;
+    top: 75px;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+
+}
+
+.video-container video {
+    object-fit: cover;
+    height: 100%;
+    width: 100%;
+}
+
+.container-general {
+    position: absolute;
+    top: calc(65vh + 50px);
+    width: 100%;
+    padding-top: 50px;
+}
+
+.tarjeta {
+    margin-top: 30px;
+}
+
+.principal {
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.grid {
+    display: grid;
+    grid-row-gap: 15px;
+    padding-bottom: 10px;
+}
+
+.bordes {
+    position: relative;
+    border-radius: 10px;
+    transition: transform 250ms ease-in-out, border 250ms ease-in-out, box-shadow 250ms ease-in-out;
+}
+
+.footer {
+    margin-top: 10vh;
+    color: silver;
+    bottom: 0;
+}
+
+.rowfooter {
+    color: silver;
+}
+
+.logo img {
+    position: relative;
+    top: 2.5vh;
+}
+
+.footer2{
+    align-items: center;
+    justify-content: space-around;
+}
+
+@media screen and (min-width: 100px) {
+    .bordes {
+        border: 1px solid rgba(249, 249, 249, 0.1);
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .container-general {
+        top: calc(65vh - 50px); /* 50px es el valor de padding-top */
+    }
+    .bordes {
+        border: 2px solid rgba(249, 249, 249, 0.1);
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .video-container{
+        position: relative;
+    }
+    .container-general {
+      top: calc(40vh - 50px); /* 50px es el valor de padding-top */
+    }
+
+}
+
+@media screen and (max-width: 1020px) {
+    .video-container{
+        position: relative;
+    }
+    .container-general {
+      top: calc(38vh - 50px); /* 50px es el valor de padding-top */
+    }
+}
+
+@media screen and (min-width: 1020px) {
+    .container-general {
+        top: calc(80vh - 50px); /* 50px es el valor de padding-top */
+    }
+    .bordes {
+        border: 2px solid rgba(249, 249, 249, 0.1);
+    }
+}

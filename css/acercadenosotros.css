@@ -1,0 +1,29 @@
+body {
+    font-family: 'Sen', sans-ser
+}
+
+.row1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 70vh;
+}
+
+.cuerpo {
+    background: linear-gradient(to bottom, #3a3c4a, #242632);
+}
+
+body {
+    background: linear-gradient(to bottom, #3a3c4a, #242632);
+}
+
+.card {
+    background: linear-gradient(to bottom, #252527, #3b3c3f);
+    color: white;
+}
+
+@media (min-width: 1360px) {
+    .foto {
+        width: 70%;
+    }
+}

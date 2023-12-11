@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Sen:wght@400;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box
+}
+
+.navbar {
+    background-color: #1A1D29;
+    border-bottom: .2px solid #F1F1F1 !important;
+
+}
+
+body {
+    background-color: #1A1D29 !important;
+    color: #F1F1F1 !important;
+    font-family: 'Sen', sans-serif;
+}
+
+.Logo{
+    width: 100px;
+    height: 50px;
+    margin: auto;
+}
+
+.seccion {
+    min-height: 65vh;
+    padding: 60px 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.contenido {
+    width: 100%;
+    max-width: 450px;
+    position: relative;
+    z-index: 1;
+}
+
+.contenido .box {
+    padding: 50px 40px;
+    border-radius: 20px;
+}
+
+.contenido h3 {
+    font-size: 24px;
+    text-align: left;
+}
+
+.contenido {
+    margin: 25px 0 20px;
+}
+
+.contenido .imput-box {
+    margin: 25px;
+}
+
+.contenido .email {
+    margin-top: 20px;
+    display: block;
+    height: 40px;
+    width: 100%;
+    background-color: #31343f;
+    color: #F1F1F1;
+    border: none;
+    padding: 20px;
+}
+
+.boton {
+    display: inline-block;
+    background-color: #0361b1;
+    color: #F1F1F1;
+    text-decoration: none;
+    padding: 12px 24px;
+    margin-top: 20px;
+    border-radius: 5px;
+    width: 100%;
+    text-align: center;
+    border: none;
+}
+
+.contenido .email:focus {
+    outline: none;
+}
+
+.contenido .input-link {
+    margin-top: 10px;
+    font-family: 'Sen', sans-serif;
+    font-size: 15px;
+}
+
+.texto-seccion {
+    margin-top: 20px;
+    font-size: 14px;
+    text-align: left;
+}
+
+.link-redirige {
+    color: #F1F1F1;
+    text-decoration: none;
+    font-size: 19px;
+}
+
+.text-contraseña {
+    font-size: 12px;
+    margin-top: 10px;
+}
+
+.link-redirige1 {
+    color: #465d76;
+    text-decoration: none;
+    font-size: 19px;
+}
+
+a{
+    color: white !important;
+    text-decoration: none !important;
+}
